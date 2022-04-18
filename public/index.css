@@ -1,0 +1,75 @@
+*{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font-size: 20px;
+    width: 100vw;
+    height:100vh;
+    text-align: center;
+    background-color: rgba(245, 222, 179, 0.705);
+}
+/*nav*/
+#nav{
+    height: 10vh;
+    padding: 0 10vw;
+    background-color: grey;
+}
+#nav a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    margin-left:10%;
+    padding: 8px;
+    border: black 2px solid;
+    border-radius: 25px;
+    top: 25%;
+}
+/*foodmap*/
+#foodmap{
+    display: inline-block;
+    margin: 7vh;
+    padding: 0 10vw;
+}
+#foodmap .storeSearch{
+    display: inline-block;
+    margin: 5vh 0;
+}
+#foodmap input{
+    height: 3vh;
+    margin: 2vh 0;
+}
+#foodmap .storeIntroduce{
+    font-size: 1.2rem;
+    display: inline-block;
+    margin: 10vh 0;
+    text-align: left;
+    line-height: 2rem;
+    border: black 2px solid;
+    padding: 15px;
+}
+#foodmap .storeIntroduce button{
+    font-size: 1.2rem;
+    left: 60%;
+    border: black 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+#foodmap .comment{
+    text-align: left;
+    line-height: 2rem;
+}
+#foodmap h3{
+    margin-bottom: 5vh;
+}
+#foodmap .comment-img{
+    width: 5vw;
+    height: 5vw;
+    margin-top: 2vh;
+    margin-right: 2%;
+}
+#foodmap .comment a{
+    text-decoration: none;
+    color: black;
+}
