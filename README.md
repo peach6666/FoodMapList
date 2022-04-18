@@ -1,4 +1,4 @@
-# foodmap2
+# FoodMapList
 
 ## Project setup
 ```
