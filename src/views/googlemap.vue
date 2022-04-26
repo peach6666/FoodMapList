@@ -1,9 +1,9 @@
 <template>
 <section id="foodmap">
     <div class="storeSearch">
-        <h1>斗六美食地圖</h1>
+        <h1>查詢店家</h1>
         <div class="input-box">
-            <input type="text" size="50" ref="site" placeholder="請輸入餐廳名稱" v-model="site">
+            <input type="text" size="50" ref="site" placeholder="請輸入店家名稱" v-model="site">
         </div>
         <div id="map"></div> 
     </div>
